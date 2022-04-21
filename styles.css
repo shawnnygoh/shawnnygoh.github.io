@@ -1,0 +1,53 @@
+.purple-background {
+    background-color: #DFD0FF;
+}
+
+.index {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.hero {
+    width: 218px;
+    position: relative;
+    left: 1rem;
+}
+
+.intro {
+    /* font-family: 'Inter';
+    font-style: normal; */
+    font-weight: 700;
+    font-size: 32px;
+    /* line-height: 39px; */
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    text-align: center;
+}
+
+.sub-intro {
+    text-align: center;
+    padding: 0 3rem;
+}
+
+.links {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.link {
+    padding: 20px;
+}
+
+.footer {
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: 10px;
+    width: 100%;
+}
